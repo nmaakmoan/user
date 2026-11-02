@@ -1,0 +1,147 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 72px 20px;
+}
+
+.panel {
+  width: 100%;
+  max-width: 660px;
+  padding: 36px;
+  background: #fff;
+  border: 1px solid #e8edf5;
+  border-radius: 20px;
+  box-shadow: 0 18px 55px rgba(29, 48, 82, .08);
+}
+
+.eyebrow {
+  color: #4169e1;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: -.7px;
+}
+
+.description {
+  color: #758198;
+  margin: 10px 0 28px;
+}
+
+.search-form {
+  display: grid;
+  gap: 15px;
+}
+
+.search-form label {
+  display: grid;
+  gap: 8px;
+  color: #46536a;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.search-form input {
+  width: 100%;
+  padding: 14px 15px;
+  border: 1px solid #dce3ee;
+  border-radius: 10px;
+  outline: none;
+  color: #172033;
+}
+
+.search-form input:focus {
+  border-color: #4169e1;
+  box-shadow: 0 0 0 3px rgba(65, 105, 225, .1);
+}
+
+.search-form button {
+  padding: 14px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background: #4169e1;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background: #3155c5;
+}
+
+.search-form button:disabled {
+  opacity: .65;
+  cursor: wait;
+}
+
+.results {
+  margin-top: 30px;
+}
+
+.results-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.results-heading h2 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.results-heading span {
+  color: #8792a5;
+  font-size: 12px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #e9edf4;
+  border-radius: 12px;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #3155c5;
+  background: #e9efff;
+  font-weight: 800;
+}
+
+.user h3 {
+  margin: 0 0 5px;
+  font-size: 15px;
+}
+
+.user p {
+  margin: 0;
+  color: #7b879a;
+  font-size: 13px;
+}
+
+.message {
+  padding: 18px;
+  text-align: center;
+  color: #7b879a;
+  background: #f7f9fc;
+  border-radius: 10px;
+}
+
+.error {
+  color: #c0392b;
+}
